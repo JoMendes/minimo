@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700|Playfair+Display:400,400i,700,700i,900,900i|Ubuntu:300,300i,400,400i,500,500i,700,700i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+body {
+	font-size: 16px;
+	margin: 0;
+}
+
+.container_top {
+	background: white;
+	width: 1060px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+/*================================> HEADER <================================*/
+
+header {
+	text-transform: uppercase;
+	color: #000000;
+	padding: 70px 0 0 0;
+	overflow: hidden;
+}
+
+header h1 {
+	float: left;
+	font-family: 'Inconsolata', monospace;
+	font-size: 1.875em;
+	letter-spacing: 7px;
+	font-weight: normal;
+	margin: 0;
+	line-height: 1;
+}
+
+header nav {
+	float: right;
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+	font-size: 0.875em;
+	margin: 0 -50px 0 0;
+	padding: 0;
+}
+header nav ul {
+	display: inline-block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header nav ul li {
+	display: inline-block;
+	margin: 0 50px;
+	line-height: 30px;
+}
+
+header a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/*================================> ARTICLE <================================*/
+
+main {
+	overflow: hidden;
+	margin-bottom: 115px;
+}
+
+.feature_image {
+	margin: 70px 0 100px 0;
+}
+
+.article {
+	color: #626262;
+	font-family: 'Playfair Display', serif;
+	float: left;
+	overflow: hidden;
+	width: 660px;
+	margin: 0 0 0 80px;
+}
+
+.article .category {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.875em;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #b4ad9e;
+}
+
+.article h2 {
+	font-size: 1.875em;
+}
+
+.article p {
+	font-size: 0.875em;
+	margin: 0 0 67px 0;
+	line-height: 24px;
+}
+
+.article figure {
+	margin: 0 0 50px 0;
+}
+
+.citation p {
+	margin: 0 40px 40px 30px;
+}
+
+.social_media {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 13px;
+	font-weight: lighter;
+}
+
+.social_media span {
+	color: #b4ad9e;
+	margin-left: 8px;
+}
+
+.social_media a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/*================================> SIDEBAR <================================*/
+
+aside {
+	width: 280px;
+	float: right;
+}
+
+.bio {
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+
+.bio figure { margin: 0; }
+
+.bio h3 { font-size: 24px; }
+
+.bio p { 
+	font-size: 0.750em;
+	line-height: 20px;
+}
+
+.bio_social_media span {
+	color: #b4ad9e;
+	margin: 0 0 0 8px;
+}
+
+.bio_social_media a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.bio_social_media .icon-facebook {
+	margin: 0;
+}
+
+.top_posts {
+	margin-top: 55px;
+}
+
+.top_posts span {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.875em;
+	text-transform: uppercase;
+	font-weight: lighter;
+	color: #b4ad9e;
+
+}
+
+.top_posts ul {
+	padding-left: 20px;
+	margin-bottom: 55px
+}
+
+.top_posts li {
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+
+.top_posts p {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.750em;
+	font-weight: lighter;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+
+.ads_sidebar {
+	margin: 0 auto;
+}
+
+/*================================> SUGGESTIONS <================================*/
+
+.container_suggestions {
+	background: #f5f5f5;
+	overflow: hidden;
+}
+
+.suggestions {
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+.suggestions .proposition {
+	text-transform: uppercase;
+	font-family: 'Ubuntu Light', sans-serif;
+	font-size: 0.875em;
+	font-weight: lighter;
+	color: #b4ad9e;
+}
+
+.three_suggests {
+	overflow: hidden;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.250em;
+	color: #626262;
+}
+
+.three_suggests figure {
+	margin: 0;
+	width: 30%;
+}
+
+.three_suggests .first_suggest {
+	float: left;
+	margin-right: 4.5%;
+}
+
+.three_suggests .second_suggest {
+	float: left;
+	margin-right: 4.5%;
+}
+
+.three_suggests .third_suggest {
+	float: left;
+}
+
+/*================================> COMMENTS <================================*/
+
+.container_comments {
+	background: white;
+	width: 900px;
+	margin: 0 auto;
+	padding: 0;
+	overflow: hidden;
+}
+
+.number_comments {
+	display: inline-block;
+	margin: 65px 0 40px 0;
+	text-transform: uppercase;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.875em;
+	font-weight: lighter;
+	color: #b4ad9e;
+
+}
+
+.comments figure {
+	margin: 0 35px 0 0;
+	float: left;
+}
+
+.comments .reply {
+	margin: 0 0 0 105px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.875em;
+	font-weight: lighter;
+	text-transform: uppercase;
+	color: #b4ad9e;
+}
+
+.comment_one { margin-bottom: 60px; }
+
+.comments p {
+	font-family: 'Playfair Display', serif;
+	font-size: 0.875em;
+	color: #626262;
+}
+.comment_two { margin-bottom: 60px; }
+.comment_three { margin-bottom: 35px; }
+
+form {
+    /* Pour le centrer dans la page */
+    margin: 0 0 0 105px;
+}
+
+input, textarea {
+	width: 743px;
+	border: 1px solid #b4ad9e;
+	border-radius: 4px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	font-size: 0.875em;
+	color: #b4ad9e;
+	padding: 20px 25px;
+	margin: 0;
+	resize: none;
+}
+
+textarea:focus {
+	outline: 0;
+}
+
+::-webkit-input-placeholder { /* Chrome */
+	font-family: 'Ubuntu', sans-serif;
+	color: #b4ad9e;
+	font-weight: lighter;
+	font-size: 0.875em;
+}
+
+.comment_answer {
+	margin-bottom: 40px
+}
+
+.connection {
+	margin-left: 700px;
+	margin-bottom: 90px;
+}
+
+.connection a {
+	color: inherit;
+	text-decoration: none;
+}
+
+.connected_with {
+	margin-right: 28px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	font-size: 0.875em;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+
+.connection .icon-twitter {
+	margin: 0 14px 0 0;
+	color: #b4ad9e;
+}
+
+.connection .icon-facebook {
+	color: #626262;
+}
+
+/*================================> FOOTER <================================*/
+
+.container_footer {
+	background: #f0f0f0;
+}
+
+footer {
+	margin: 0 auto;
+	width: 985px;
+	font-family : 'Playfair Display', serif;
+	font-size: 0.875em;
+}
+
+.terms {
+	float: left;
+	margin: 45px 0 45px 0px;
+}
+
+.privacy {
+	float: left;
+	margin: 45px 0 45px 15px;
+}
+
+.follow {
+	float: left;
+	margin: 45px 20px 45px 640px;
+}
+
+.footer_social span {
+	display: inline-block;
+	margin: 45px 12px 45px 0;
+	color: #626262;
+}
+
+.footer_social a {
+	color: inherit;
+	text-decoration: none;
+}
+
+/*================================> BOUTONS RÉSEAUX SOCIAUX <================================*/
